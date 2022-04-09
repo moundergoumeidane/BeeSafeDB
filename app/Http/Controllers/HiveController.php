@@ -39,7 +39,6 @@ class HiveController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-
         'temperature'=>'required',
         'humidity'=>'required',
         'weight'=>'required',
