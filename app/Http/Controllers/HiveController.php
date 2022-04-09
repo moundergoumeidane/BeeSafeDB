@@ -46,7 +46,6 @@ class HiveController extends Controller
         'longitude'=>'required',
         'latitude'=>'required',
         'activity'=>'required'
-
         ]);
         /* return hive::create(
              $request->all()
